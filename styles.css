@@ -1,0 +1,37 @@
+:root {
+    --table-color:rgb(15, 139, 177);
+    --row-bg-color:rgb(108, 211, 68);
+}
+#bordered {
+    border:3px solid var(--table-color);
+    height:200px;
+    width:400px;
+    text-align:center;
+}
+table caption {
+    text-transform:uppercase;
+    background-color:var(--table-color);
+    color:black;
+    padding:8px;
+}
+#bordered tr:nth-child(even) {
+    background-color:var(--row-bg-color);
+}
+#bordered tr:nth-child(odd) {
+    background-color:rgb(149, 248, 162);
+}
+img {
+    width:350px;
+    height:350px;
+    float:right;
+}
+.pos-img {
+    position:relative;
+    width:50%;
+}
+
+figcaption {
+    line-break:anywhere;
+    width: 200px;
+    float:right;
+}
